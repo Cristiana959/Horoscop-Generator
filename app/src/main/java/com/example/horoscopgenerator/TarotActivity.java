@@ -47,7 +47,6 @@ public class TarotActivity extends AppCompatActivity {
         tarotCardImages.add(R.drawable.m20);
         tarotCardImages.add(R.drawable.m21);
 
-
         tarotCardImages.add(R.drawable.c01);
         tarotCardImages.add(R.drawable.c02);
         tarotCardImages.add(R.drawable.c03);

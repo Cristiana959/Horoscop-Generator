@@ -16,67 +16,80 @@
         android:padding="12dp"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="40dp"/>
-    <Spinner
-        android:id="@+id/zodiacSpinner"
-        android:layout_width="194dp"
-        android:layout_height="59dp"
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="87dp"
         android:layout_gravity="center"
-        android:layout_margin="70dp"
-        android:fontFamily="-monospace"
-        android:gravity="center"
-        android:outlineAmbientShadowColor="@color/white"
-        android:padding="15dp"
-        android:text="Please Select Your Sign"
-        android:textColor="#e0e0e0"
-        android:textSize="40dp" />
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_horoscope_button"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Horoscope"
+            android:textColor="#DFC681"
+            app:backgroundTint="@color/black"
+            app:cornerRadius="24dp"
+            app:rippleColor="#aaaaaa"
+            app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.SmallComponent"
+            app:strokeColor="#DFC681"
+            app:strokeWidth="1dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_tarot_button"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Tarot Reading"
+            android:textColor="#DFC681"
+            app:backgroundTint="@color/black"
+            app:cornerRadius="24dp"
+            app:rippleColor="#aaaaaa"
+            app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.SmallComponent"
+            app:strokeColor="#DFC681"
+            app:strokeWidth="1dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:layout_gravity="center"
-        android:padding="25dp">
-
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="160dp"
-            android:layout_height="50dp"
-            android:text="Horoscope"
-            android:textColor="#DFC681"
-            app:rippleColor="#aaaaaa"
-            app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.SmallComponent"
-            app:strokeColor="#DFC681"
-            android:id="@+id/main_horoscope_button"
-            app:backgroundTint="@color/black"
-            app:strokeWidth="1dp"
-            app:cornerRadius="24dp"
-            style="?attr/materialButtonOutlinedStyle"
-            android:padding="10dp"
-            android:layout_marginLeft="15dp"/>
-
-        <View
-            android:layout_width="0dp"
-            android:layout_height="1dp"
-            android:layout_weight="1"/>
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="160dp"
-            android:layout_height="50dp"
-            android:text="Tarot Reading"
-            android:textColor="#DFC681"
-            app:rippleColor="#aaaaaa"
-            app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.SmallComponent"
-            app:strokeColor="#DFC681"
-            android:id="@+id/main_tarot_button"
-            app:backgroundTint="@color/black"
-            app:strokeWidth="1dp"
-            app:cornerRadius="24dp"
-            style="?attr/materialButtonOutlinedStyle"
-            android:padding="10dp"
-            android:layout_marginLeft="15dp"/>
-
-
-
+        android:padding="10dp">
+        <Spinner
+            android:id="@+id/zodiacSpinner"
+            android:layout_width="194dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:layout_margin="70dp"
+            android:fontFamily="-monospace"
+            android:gravity="center"
+            android:outlineAmbientShadowColor="@color/white"
+            android:padding="15dp"
+            android:text="Please Select Your Sign"
+            android:textColor="#e0e0e0"
+            android:textSize="40dp" />
     </LinearLayout>
 
 

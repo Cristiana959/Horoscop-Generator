@@ -52,6 +52,7 @@ public class HoroscopeActivity extends AppCompatActivity {
                     if(rnd_index == index)
                     {
                         prediction.setText(((String) val.getValue()).toUpperCase());
+                        System.out.println((String) val.getValue());
                         break;
                     }
                 }
