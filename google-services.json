@@ -34,6 +34,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372996820049:android:f1e7032d7b6d7e954abc70",
+        "android_client_info": {
+          "package_name": "com.qimind.horoscopgenerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372996820049-4n6fbqgeqap6vr66nssiutjvf3s7jm6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhcBXcHZCaTcf5w4jJLeWXuPpRNySJSRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372996820049-4n6fbqgeqap6vr66nssiutjvf3s7jm6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"
